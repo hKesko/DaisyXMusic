@@ -25,7 +25,7 @@ if os.path.exists("local.env"):
 
 que = {}
 SESSION_NAME = getenv("SESSION_NAME", "BQA-aSKT09C56_FA18R9-6M9zsfLeEe7sChma5913Mt4iAwL-BbXwZk8YJ8FVIFjsA3KRx4h5jAamiaQfSnZT2QRUIhT8ZK5NP-CZ0Y4QAt5g_VAAeDiwRbtK3eR1Z-VCdCVUwwkDWj6MY-LXY0i3Dti9bW3FjOFvstsxclbhBsoJl7WoWCFIdDdXFPGAOdeiOM8TGyPJrBKIKEQHoUoJqUYYHcan8Xwzlg4oi_DPOYs8D7j-sf-RPbasIWgwFVUYXJFz-LPT29c665FL6_ALLhSf3DGcj6Glus-zAcWJPk-sridtjHMwffe0KKfaHz7tvvEgxJNDYcR5VP0kHFE7MNC6ePgA")
-BOT_TOKEN = getenv("1436379751:AAFq8G8HL0kJqVc3iRLssn8xY-O5bYuQZe0")
+BOT_TOKEN = getenv("BOT_TOKEN", "1436379751:AAFq8G8HL0kJqVc3iRLssn8xY-O5bYuQZe0")
 BOT_NAME = getenv("Vc Bot")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "DaisyXupdates")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png")
